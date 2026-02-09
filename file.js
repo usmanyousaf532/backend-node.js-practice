@@ -38,7 +38,7 @@ const fs = require("fs");
 
 //copy file sync
 
-// fs.cpSync("./test.txt", "./copy.txt");
+fs.cpSync("./test.txt", "./cp.txt");
 
 // delete sync file
 
