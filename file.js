@@ -1,4 +1,4 @@
-const fs = require("fs");
+// const fs = require("fs");
 
 // sync file write
 
@@ -38,8 +38,12 @@ const fs = require("fs");
 
 //copy file sync
 
-fs.cpSync("./test.txt", "./cp.txt");
+// fs.cpSync("./test.txt", "./cp.txt");
 
 // delete sync file
 
 // fs.unlinkSync("./copy.txt");
+
+// const os = require("os");
+// console.log(os.cpus().length);
+
